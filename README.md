@@ -22,16 +22,7 @@ communications person, I have to deal with this server.
 1. `/html` contains the webpages to interface with the evaluation server.
 2. `/server` contains the main code for the evaluation server.
 
-## Start Up
-
-1. Run the evaluation server.
-
-2. Open the web interface i.e. index.html. Submit the required information.
-
-3. Connect the evaluation client to the evaluation server from Ultra96 via
-   TCP/IP. The TCP port on which to connect, will be displayed on the webpage.
-
-## Setup
+## Pre-Requisites
 
 In case your professors are not very helpful and forgot to include the list of
 dependencies to run the python file, you may follow the following commands to
@@ -42,3 +33,23 @@ and aiofiles are unable to be installed via virtual environment so bopzzz.
 cd server
 pip3 install -r requirements.txt
 ```
+
+## Start Up
+
+1. Run the evaluation server.
+
+2. Open the web interface i.e. index.html. Submit the required information as such:
+
+```text
+Eval Server IP Addr: 127.0.0.1
+Group name: B04
+Password (16 char):
+2 player mode: True
+```
+
+On succss, you will see the following:
+
+![Sample](./public/sample.png)
+
+3. Connect the evaluation client to the evaluation server from Ultra96 via
+   TCP/IP. The TCP port on which to connect, will be displayed on the webpage.
