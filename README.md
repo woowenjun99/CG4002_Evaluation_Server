@@ -30,3 +30,15 @@ communications person, I have to deal with this server.
 
 3. Connect the evaluation client to the evaluation server from Ultra96 via
    TCP/IP. The TCP port on which to connect, will be displayed on the webpage.
+
+## Setup
+
+In case your professors are not very helpful and forgot to include the list of
+dependencies to run the python file, you may follow the following commands to
+install the dependencies globally. For some unknown reason, the pycryptodome
+and aiofiles are unable to be installed via virtual environment so bopzzz.
+
+```bash
+cd server
+pip3 install -r requirements.txt
+```
